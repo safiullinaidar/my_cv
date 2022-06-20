@@ -6,26 +6,27 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Айдар Сафиуллин
+title: Ruby on Rails разработчик
+email: aidarinXT@mail.ru
+phone: +7(986)925-42-25
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+telegram_username: Aidar_Safiullin
+github_username:  safiullinaidar
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: aidar_r_safiullin
+linkedin_username: Aidar Safiullin
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: jekyll
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -45,16 +46,26 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+# about_title: О себе
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Привет, меня зовут Айдар, мне 34 года, в течение 12 лет занимался промышленной автоматизацией, 
+  но летом 2021 года решил заняться автоматизацией бизнесс-процессов на уровне информационных систем. 
+  Чем глубже погружался, тем больше было желание заняться разработкой веб-приложений на интересном стеке.
+  Мой выбор выбор уже давно пал на <mark>Ruby</mark>, и вот суже более полугода я занимаюсь изучением фреймворка <mark>Ruby on Rails</mark>
+  
+  В июне 2022 года завершил интесив по Ryby on Rails в наиболее продвинутой онлайн школе по данному направлению в РФ - [Хороший программист](https://goodprogrammer.ru/). 
+  В рамках обучения разрабатывал проекты, размещал на <mark>GitHub</mark>. Детали некоторых проектов указаны ниже.
+  <u>Цель:</u>
+  В данный момент нахожусь в поиске работы на позицию <mark>Ryby on Rails</mark> разработчика, с возможностью развития в направлении fullstack разработки.
+  <u>Языки</u>
+  Русский, Татарский - native
+  Английский - upper-intermediate (B2)
+  Итальянский - elementary (A1)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Проекты
+    layout: list
     content:
       - layout: top-middle
         title: Super awesome project
@@ -72,8 +83,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Опыт работы
+    layout: list
     content:
       - layout: left
         title: The Boring Company
@@ -86,31 +97,46 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Образование
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Альметьевский государственный нефтяной институт
+        caption: 2004 - 2009
+        sub_title: Автоматизация технологических процессов и производств (специалитет)
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Основан в 1952 году, ключевой ВУЗ в сфере подготвки кадров для нефтяной промышленности Республики Татарстан
+        description: |
+          Во время обучения в АГНИ я получил фундаметальное техническое образование, обучился подходам и методикам обучения,
+          научился работать в команде. Это послужило мощным основанием для моей карьеры в сфере автоматизации и позволило мне
+          совершенствовать свои знания в дальнейшем.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+          В свободное время принимал участие в художественной самодеятельности.
+      - layout: left
+        title: Казанский (Приволжский) федеральный университет
+        caption: Декабрь 2017 - Октябрь 2018
+        sub_title: Программа профессиональной переподготовки переподготовки управленческих кадров (Менеджмент)
+        quote: >
+          Основан в 1804 году, один из старейших ВУЗов в государстве, в стенах которого обучалось и работало множество выдающихся учёных, деятелей искусства, политиков
+        description: |
+          В КФУ я совершенствовал свои управленческие навыки, полученные в ходе карьеры. Также значительно
+          "прокачал" свои "soft skills".
+      - layout: left
+        title: [Хороший программист](https://goodprogrammer.ru/)
+        caption: Февраль 2022 - Июнь 2022
+        sub_title: Онлайн интенсив по Ruby on Rails
+        description: |
+          Здесь я приобрёл навыки веб-разработчика, освоил методику работы с документацией и поиска информации для решения конкретных задач на проекте, 
+          навыки работы в команде в сжатые сроки, под высокой нагрузкой. Подробнее обо всех приобретённых здесь навыках указано в специальном разделе "Наывки"
+          
+  - title: Ещё немного о себе
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      Наряду с интересом к веб-разработке вот ещё некоторые мои увлечения:
+      - игра на гитаре;
+      - караоке;
+      - туризм;
+      - командные логические игры.
 
 # Footer
 footer_show_references: true
