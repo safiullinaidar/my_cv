@@ -32,9 +32,9 @@ linkedin_username: Aidar Safiullin
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: Telegram
+  icon: fa-brands fa-telegram
+  url: https://t.me/Aidar_Safiullin
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,21 +46,26 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: О себе
+about_title: О себе
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Привет, меня зовут Айдар, мне 34 года, в течение 12 лет занимался промышленной автоматизацией, 
-  но летом 2021 года решил заняться автоматизацией бизнесс-процессов на уровне информационных систем. 
+  а летом 2021 года решил заняться автоматизацией бизнесс-процессов на уровне информационных систем. 
   Чем глубже погружался, тем больше было желание заняться разработкой веб-приложений на интересном стеке.
-  Мой выбор выбор уже давно пал на <mark>Ruby</mark>, и вот суже более полугода я занимаюсь изучением фреймворка <mark>Ruby on Rails</mark>
+  Мой выбор уже давно пал на <mark>Ruby</mark>, и вот уже более полугода я занимаюсь изучением фреймворка <mark>Ruby on Rails</mark>
   
   В июне 2022 года завершил интесив по Ryby on Rails в наиболее продвинутой онлайн школе по данному направлению в РФ - [Хороший программист](https://goodprogrammer.ru/). 
   В рамках обучения разрабатывал проекты, размещал на <mark>GitHub</mark>. Детали некоторых проектов указаны ниже.
+
   <u>Цель:</u>
-  В данный момент нахожусь в поиске работы на позицию <mark>Ryby on Rails</mark> разработчика, с возможностью развития в направлении fullstack разработки.
+  В данный момент нахожусь в поиске работы на позицию <mark>Ryby on Rails</mark> разработчика с возможностью развития.
+
   <u>Языки</u>
+
   Русский, Татарский - native
+  
   Английский - upper-intermediate (B2)
+  
   Итальянский - elementary (A1)
 
 content:
@@ -138,7 +143,7 @@ content:
       - игра на гитаре;
       - караоке;
       - туризм;
-      - командные логические игры.
+      - командные интеллектуальные игры.
 
 # Footer
 footer_show_references: true
