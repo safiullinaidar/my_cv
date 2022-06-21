@@ -73,61 +73,77 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: "Шашлыки"
+        link: https://shashlykmashlyk.herokuapp.com
+        link_text: Шашлыки
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  barbeque
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/safiullinaidar/barbeque
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Приложение для создания событий
+        description: |
+          Приложение для создания событий (например, похода с друзьями на шашлыки). 
+          События могут создавать зарегистрированные пользователи. 
+          На событие можно подписаться (как авторизованному пользователю, так и анонимному), 
+          оставить комментарий, добавить фотографии.
+      - layout: top-middle
+        title: "Askme"
+        link: https://powerful-hollows-33867.herokuapp.com
+        link_text: Askme
+        additional_links:
+          - title:  askme
+            icon: fab fa-github
+            url: https://github.com/safiullinaidar/askme
+        quote: >
+          Приложение, в котором можно задавать вопросы и получать на них ответы
+        description: |
+          Функционал веб-приложения аналогичен известному сайту Ask.fm. 
+          Для использования приложения необходимо в нём зарегистрироваться. 
+          После этого можно редактировать свой профиль, задавать и отвечать 
+          на вопросы как зарегистрированных, так и анонимных пользователей.
 
   - title: Навыки
     layout: text
     content: |
-      Основы
+      <b>Основы</b>
 
-      Понимаю приципы ООП, DRY, SOLID, использую подходы по проектированию приложений, изучил паттерны программирования, 
-      использую различные форматы данных (XML, JSON), использую реляционные БД (SQLite, PstgreSQL)
+      Понимаю приципы <mark>ООП</mark>, <mark>DRY</mark>, <mark>SOLID</mark>, использую подходы по проектированию приложений, изучил паттерны программирования, 
+      использую различные форматы данных (<mark>XML</mark>, <mark>JSON</mark>), использую реляционные БД (<mark>SQLite</mark>, <mark>PostgreSQL</mark>)
 
-      Ruby
+      <b>Ruby</b>
 
-      Соблюдаю кодстайл, понимаю и использую основы синтаксиса, покрываю код тестами (RSpec), 
-      использую интерактивную консоль, применяю библиотеки Rubygems
+      Соблюдаю кодстайл, понимаю и использую основы синтаксиса, покрываю код тестами (<mark>RSpec</mark>), 
+      использую интерактивную консоль, применяю библиотеки <mark>Rubygems</mark>
 
-      Инструменты
+      <b>Инструменты</b>
 
-      Уверенный пользователь ОС Linux Ubuntu, использую терминал, применяю Git, пушу проекты на удалённые репозитории GitHub, 
-      осовил деплой на Heroku, отлаживаю код при помощи гема Debugger, деплой на VPS с применением гема Capistrano
+      Уверенный пользователь ОС <mark>Linux Ubuntu</mark>, использую терминал, применяю <mark>Git</mark>, пушу проекты на удалённые репозитории <mark>GitHub</mark>, 
+      осовил деплой на <mark>Heroku</mark>, отлаживаю код при помощи гема <mark>Debugger</mark>, деплой на <mark>VPS</mark> с применением гема <mark>Capistrano</mark>
 
-      Frontend
+      <b>Frontend</b>
 
-      Понимаю суть протокола HTTP; осовил основы веб-дизайна, вёрстки; пишу на языке HTML5; применяю стили CSS; 
-      использую фронтэнд-фреймворки Bootstrap 5, Skeleton; применял некоторые модули, написанные на JS
+      Понимаю суть протокола <mark>HTTP</mark>; осовил основы веб-дизайна, вёрстки; пишу на языке <mark>HTML5</mark>; применяю стили <mark>CSS3</mark>; 
+      использую фронтэнд-фреймворки <mark>Bootstrap 5</mark>, <mark>Skeleton</mark>; применял некоторые модули, написанные на <mark>JS</mark>
 
-      Rails
+      <b>Rails</b>
 
-      Понимаю паттерн MVC, изучил структуру файлов проекта, понимаю и применяю соглашение REST, 
-      понимаю и применяю основные подходы в проектировании Rails-приложений, применяю популярные гемы 
-      (I18n, RSpec, Devise, Carrierwave и др.), применяю принципы обеспечения безопасности Rails-приложений 
-      (CSRF-токен, защита от SQL-инъекций, защита от спама, защита при авторизации), управляю фоновыми задачами при помощи ActiveJob
+      Понимаю и применяю паттерн <mark>MVC</mark>, изучил структуру файлов проекта, понимаю и применяю соглашение <mark>REST</mark>, 
+      понимаю и применяю основные подходы в проектировании <mark>Rails</mark>-приложений, применяю популярные гемы 
+      (<mark>I18n</mark>, <mark>RSpec</mark>, <mark>Devise</mark>, <mark>Carrierwave</mark>, <mark>Mailjet</mark> и др.), 
+      применяю принципы обеспечения безопасности <mark>Rails</mark>-приложений 
+      (<mark>CSRF</mark>-токен, защита от <mark>SQL</mark>-инъекций, защита от спама, защита при авторизации), управляю фоновыми задачами при помощи <mark>ActiveJob</mark>
 
   - title: Опыт работы
     layout: list
     content:
       - layout: left
         title: АО "Сетевая компания"
-        link: https://gridcom-rt.ru/
+        link: https://gridcom-rt.ru
         sub_title: Главный специалист — руководитель проекта Проектного офиса
         caption: Июль 2021 - настоящее время
         quote: >
-          цитата
+           
         description: |
           Руководство проектами внедрения и развития информационных систем. Формирование технического задания, календарное планирование, 
           анализ бинес-требований функционального заказчика, управление командой проекта и ресурсами подрядных организаций. 
@@ -135,11 +151,11 @@ content:
           Организация испытаний, опытной эксплуатации и окончательной приёмки систем.
       - layout: left
         title: ООО "ТатАвтоматизация"
-        link: https://tatintec.ru/
+        link: https://tatintec.ru
         sub_title: Заместитель главного инженера — начальник отдела исполнения контрактов, Главный специалист, Ведущий инженер, Инженер в ГК "Татинтек" (г. Альметьевск)
         caption: Октябрь 2009 - Июль 2021
         quote: >
-          цитата
+           
         description: |
           Руководство сервисной деятельностью компании, формирование и поддрежка каталога услуг. 
           Организация взаимодействия с заказчиками. Непосредственное участие в стратегическом планировании, 
